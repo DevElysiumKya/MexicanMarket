@@ -316,7 +316,7 @@ animation: move 60s infinite;
 @keyframes move2 {
   0%{
     opacity: 0;
-    transform: translate(-30px, 0px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -343,7 +343,7 @@ animation: move 60s infinite;
 @keyframes move3 {
   0%{
     opacity: 0;
-    transform: translate(-30px, 0px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -361,7 +361,7 @@ animation: move 60s infinite;
   }
   70% {
     opacity: 1;
-    transform: translate(-120px,370px) rotate(10deg);
+    transform: translate(-120px,270px) rotate(10deg);
   }
   100% {
     transform: translate(500px,2000px) rotate(10deg);
@@ -370,7 +370,7 @@ animation: move 60s infinite;
 @keyframes move4 {
   0%{
     opacity: 0;
-    transform: translate(-30px, 0px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -381,14 +381,14 @@ animation: move 60s infinite;
   }
   40% {
     opacity: 1;
-    transform: translate(210px,500px) rotate(10deg);
+    transform: translate(210px,400px) rotate(10deg);
   }
   60% {
     transform: translate(-380px,-120px) rotate(-10deg);
   }
   70% {
     opacity: 1;
-    transform: translate(100px,250px) rotate(10deg);
+    transform: translate(100px,150px) rotate(10deg);
   }
   100% {
     transform: translate(1500px,2000px) rotate(10deg);
@@ -398,7 +398,7 @@ animation: move 60s infinite;
 @keyframes move5 {
   0%{
     opacity: 0;
-    transform: translate(-30px, 0px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -409,14 +409,14 @@ animation: move 60s infinite;
   }
   40% {
     opacity: 1;
-    transform: translate(10px,500px) rotate(10deg);
+    transform: translate(10px,400px) rotate(10deg);
   }
   60% {
     transform: translate(-100px,120px) rotate(-10deg);
   }
   70% {
     opacity: 1;
-    transform: translate(-160px,230px) rotate(10deg);
+    transform: translate(-160px,130px) rotate(10deg);
   }
   100% {
     transform: translate(-1500px,500px) rotate(10deg);
@@ -425,7 +425,7 @@ animation: move 60s infinite;
 @keyframes move6 {
   0%{
     opacity: 0;
-    transform: translate(-30px, 0px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -436,14 +436,14 @@ animation: move 60s infinite;
   }
   40% {
     opacity: 1;
-    transform: translate(80px,300px) rotate(10deg);
+    transform: translate(80px,200px) rotate(10deg);
   }
   60% {
-    transform: translate(-140px,320px) rotate(-10deg);
+    transform: translate(-140px,220px) rotate(-10deg);
   }
   70% {
     opacity: 1;
-    transform: translate(300px,-190px) rotate(10deg);
+    transform: translate(300px,-290px) rotate(10deg);
   }
   100% {
     transform: translate(1500px,-2000px) rotate(10deg);
@@ -452,7 +452,7 @@ animation: move 60s infinite;
 @keyframes move7 {
   0%{
     opacity: 0;
-    transform: translate(-30px, -80px) rotate(10deg);
+    transform: translate(-30px, -240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -463,14 +463,14 @@ animation: move 60s infinite;
   }
   40% {
     opacity: 1;
-    transform: translate(-170px,280px) rotate(10deg);
+    transform: translate(-170px,180px) rotate(10deg);
   }
   60% {
-    transform: translate(200px,90px) rotate(-10deg);
+    transform: translate(200px,-10px) rotate(-10deg);
   }
   70% {
     opacity: 1;
-    transform: translate(-190px,190px) rotate(10deg);
+    transform: translate(-190px,90px) rotate(10deg);
   }
   100% {
     transform: translate(-1500px,2000px) rotate(10deg);
@@ -479,7 +479,7 @@ animation: move 60s infinite;
 @keyframes move8 {
   0%{
     opacity: 0;
-    transform: translate(0px,0px) rotate(10deg);
+    transform: translate(0px,-240px) rotate(10deg);
   }
   30% {
     opacity: 0;
@@ -490,17 +490,17 @@ animation: move 60s infinite;
   }
   40% {
     opacity: 1;
-    transform: translate(0px,0px) rotate(10deg);
+    transform: translate(0px,-100px) rotate(10deg);
   }
   60% {
-    transform: translate(0px,90px) rotate(-10deg);
+    transform: translate(0px,-10px) rotate(-10deg);
   }
   70% {
     opacity: 1;
-    transform: translate(150px,-390px) rotate(10deg);
+    transform: translate(150px,-490px) rotate(10deg);
   }
   100% {
-    transform: translate(-1000px,500px) rotate(10deg);
+    transform: translate(-1000px,400px) rotate(10deg);
   }
 }
 .wing {
