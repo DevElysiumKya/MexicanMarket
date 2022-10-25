@@ -257,25 +257,25 @@ transform-origin: 78% 29%;
 animation: move 60s infinite;
 }
 .bat2 {
-  animation: move2 15s infinite;
+  animation: move2 15s steps(120);
 }
 .bat3 {
-  animation: move3 15s infinite;
+  animation: move3 15s steps(120);
 }
 .bat4 {
-  animation: move4 15s infinite;
+  animation: move4 15s steps(120);
 }
 .bat5 {
-  animation: move5 15s infinite;
+  animation: move5 15s steps(120);
 }
 .bat6 {
-  animation: move6 15s infinite;
+  animation: move6 15s steps(120);
 }
 .bat7 {
-  animation: move7 15s infinite;
+  animation: move7 15s steps(120);
 }
 .bat8 {
-  animation: move8 15s infinite;
+  animation: move8 15s steps(120);
 }
 @keyframes move {
   0%{
