@@ -30,7 +30,6 @@ body {
     min-height: 100vh;
     background: #111;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 /*--------------------------*/
 /*   Super Slider Style SSS */
@@ -53,7 +52,7 @@ body {
   }
 }
 .carousel {
-    min-height: 360px;
+    min-height: 340px;
 }
 
 .carousel .carousel-item {
@@ -62,8 +61,8 @@ body {
     justify-content: center;
     align-items: center;
     user-select: none;
-    width: 360px;
-    height: 360px;
+    width: 340px;
+    height: 340px;
 }
 .carousel .carousel-item img {
     width: 100%;
@@ -106,98 +105,9 @@ margin: 0;
     padding: 8px;
 }
 .carousel .indicators .indicator-item.active {
-    background: rgb(255, 123, 0);
+    background: gold;
     box-shadow: 0px 0px 10px white;
 }
-/*--------------------------*/
-/*  FIRE ANIMATION WITH LOGO*/
-/*--------------------------*/
-  .mo-fire {
-    z-index: 1;
-    height: 350px;
-    width: auto;
-    position: relative;
-    top: -64px;
-    left: -40px;
-    text-align: center;
-  }
-  .mo-fire svg {
-    height: 100%;
-    width: auto;
-    position: relative
-  }
-  .flame {
-    animation-name: flamefly;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    opacity: 0;
-    transform-origin: 50% 50% 0;
-  }
-  .flame.one {
-    animation-delay: 1s;
-    animation-duration: 3s;
-  }
-  .flame3.two{
-    animation-duration: 5s;
-    animation-delay: 1s;
-  }
-  .flame-main {
-    animation-name: flameWobble;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  .flame-main.one {
-    animation-duration: 4s;
-    animation-delay: 1s;
-  }
-  .flame-main.two {
-    animation-duration: 3s;
-    animation-delay: 2s;
-  }
-  .flame-main.three {
-    animation-duration: 2.1s;
-    animation-delay: 3s;
-  }
-  .flame-main.four {
-    animation-duration: 3.2s;
-    animation-delay: 4s;
-  }
-  .flame-main.five {
-    animation-duration: 2.5s;
-    animation-delay: 5s;
-  }
-  @keyframes flameWobble {
-    50% {
-      transform: scale(1,1.2) translate(0, -30px) rotate(-2deg);
-    }
-  }
-  @keyframes flamefly {
-    0%{
-      transform: translate(0) rotate(180deg);
-    }
-     50% {
-       opacity: 1;
-    }
-    100% {
-      transform: translate(-20px, -100px) rotate(180deg);
-      opacity: 0;
-    }}
-.slogo {
-    text-align: center;
-        z-index: 3;
-        position: absolute;
-    margin-top: 0px;
-    left: -144px;
-    right: 0px;
-    text-align: center;
-    }
-.svglogo {
-z-index: 7;
-position: absolute;
-    top: -210px;
-    }
 /*--------------------------*/
 /*         FOOTER           */
 /*--------------------------*/
@@ -207,9 +117,11 @@ footer {
   bottom: -100px;
 }
 .footer {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
     z-index: 5;
     position:inherit;
-    background: #111;
     padding: 10px;
     color:aliceblue;
     text-align: center;
@@ -226,34 +138,12 @@ footer {
     text-align: center;
 }
 .des {
-  
   font-weight: bold;
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 0px;
   color: #fff;
   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px,0px 0px 10px #fff;
-}
-.svgfacebook, .svgfacebook:visited, .svgfacebook:link {
-    color: rgb(0,144,240);
-    padding-left: 10px;
-    padding-top: 10px;
- }
- .svgwhatsapp, .svgwhatsapp:visited, .svgwhatsapp:link {
-    color: rgb(0, 179, 54);
-    padding-left: 10px;
-    padding-top: 10px;
- }
-.fire-init {
-    z-index: 10;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    animation: fireburn 5s steps(10);
-    background: black;
-    opacity: 0;
-    left: -100%;
 }
 #fire-init2 {
     z-index: 12;
@@ -279,6 +169,154 @@ footer {
     }
 
 }
+#sweet {
+  animation: sweet 30s infinite;
+}
+#calaverita {
+  animation: calaverita 30s infinite;
+}
+@keyframes sweet {
+  0%{
+    color:white;
+  }
+  40%{
+    color: white;
+  }
+  50%{
+    color: gold;
+  }
+  90% {
+    color: gold;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes calaverita {
+  0%{
+    color:gold;
+  }
+  40%{
+  color: gold;
+  }
+  50%{
+    color: white;
+  }
+  90% {
+    color: white;
+  }
+  100% {
+    color: gold;
+  }
+}
+/*-----------------------------------*/
+/*        BAT OVERLAY NORMAL         */
+/*-----------------------------------*/
+.wrapper-halloween {
+  width: 700px;
+  position: absolute;
+}
+.bat-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.bat-overlay svg {
+  width: 100%;
+  height: 84vh;
+}
+.eye {
+  fill: hsl(20, 70%, 40%);
+}
+.shadow {
+  color: black;
+  filter: blur(6px);
+  opacity: 0.2;
+}
+.bat {
+  color: white;
+animation-direction: normal;
+animation-timing-function: ease-in-out;
+transform-origin: 78% 29%;
+animation: move 60s infinite;
+}
+@keyframes move {
+  0%{
+    transform: translate(200px, 90px) rotate(10deg);
+  }
+  10%{
+    transform: translate(-80px,90px) rotate(-10deg);
+  }
+  20%{
+    transform: translate(-120px,-80px) rotate(10deg);
+  }
+  30%{
+    transform: translate(-190px,-120px) rotate(-10deg);
+  }
+  50% {
+    transform: translate(320px,-90px) rotate(10deg);
+  }
+  60% {
+    transform: translate(300px,190px) rotate(-10deg);
+  }
+  70% {
+    transform: translate(360px,640px) rotate(10deg);
+  }
+  75% {
+    transform: translate(-310px,400px) rotate(-10deg);
+  }
+  80% {
+    transform: translate(-300px,140px) rotate(20deg);
+  
+  }
+  90% {
+    transform: translate(300px,0px) rotate(-10deg);
+  }
+  100% {
+    transform: translate(200px,90px) rotate(10deg);
+  }
+}
+.wing {
+animation-timing-function: ease-in-out;
+transform-origin: 50% 50%;
+animation-direction: normal;  
+animation: wing 1.2s infinite;
+}
+.wing1 {
+  
+  animation-timing-function: ease-in-out;
+  transform-origin: 50% 50%;
+  animation-direction: normal;  
+  animation: wing1 1.2s infinite;
+}
+
+@keyframes wing {
+  0% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, 0px) scaleX(0.1) rotate(-25deg);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+}
+@keyframes wing1 {
+  0% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, 0px) scaleX(0.1) rotate(25deg);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+}
+
 /*-----------------------------------*/
 /* ULTIMAS MODIFICACIONES DEL CLIENTE*/
 /*-----------------------------------*/

@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     document.getElementById('fire-init2').style.animation = "fireburn 1s steps(10)";
 });
 
+
+
 var burning = new Audio();
 burning.src = "./assets/Fireburn.mp3";
 
