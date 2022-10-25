@@ -4,10 +4,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         duration: 210,
         indicators: true
     });
-    document.getElementById('fire-init2').style.animation = "fireburn 1s steps(10)";
+    document.getElementById('fire-init2').style.animation = "close-init 1.2s steps(10)";
 });
-
-
 
 var burning = new Audio();
 burning.src = "./assets/Fireburn.mp3";
@@ -89,34 +87,3 @@ function showm11(){
     menus();
 }
 
-
-function showp1(){
-    document.getElementById("f3img").src = "./assets/Paq1.jpeg";
-    showbase();
-    paquetes();
-}
-function showp2(){
-    document.getElementById("f3img").src = "./assets/Paq2.jpeg";
-    showbase();
-    paquetes();
-}
-function showp3(){
-    document.getElementById("f3img").src = "./assets/Paq3.jpeg";
-    showbase();
-    paquetes();
-}
-function showp4(){
-    document.getElementById("f3img").src = "./assets/Paq4.jpeg";
-    showbase();
-    paquetes();
-}
-function showp5(){
-    document.getElementById("f3img").src = "./assets/Paq5.jpeg";
-    showbase();
-    paquetes();
-}
-function showp6(){
-    document.getElementById("f3img").src = "./assets/Paq6.jpeg";
-    showbase();
-    paquetes();
-}
