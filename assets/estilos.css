@@ -355,7 +355,7 @@ opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    transform: translate(-20vw,-10vh);
+    transform: translate(-20vw,-20vh);
   }
   50% {
     transform: translate(-45vw,-8vh);
@@ -460,7 +460,7 @@ opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    transform: translate(-10vw,-10vh);
+    transform: translate(-10vw,-20vh);
   }
   50% {
     transform: translate(30vw,5vh);
@@ -495,7 +495,7 @@ opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    transform: translate(30vw,-10vh);
+    transform: translate(30vw,-20vh);
   }
   50% {
     transform: translate(0vw,45vh);
