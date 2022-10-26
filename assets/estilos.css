@@ -701,6 +701,9 @@ animation: wing 1.2s infinite;
   transform: rotate(0);
   background-image: url("../LogoOctubre.png");
 }
+100%{
+background-image: url("./LogoOctubre.png"); 
+}
 }
 @keyframes witchanime {
   0% {
