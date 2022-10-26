@@ -312,16 +312,17 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(30vw,-20vh);
   }
   50% {
-    opacity: 1;
     transform: translate(-25vw,-10vh);
   }
   70% {
@@ -346,12 +347,14 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(-20vw,-10vh);
   }
   50% {
@@ -379,12 +382,14 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(20vw,-15vh);
   }
   50% {
@@ -412,12 +417,14 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(-20vw,-15vh);
   }
   50% {
@@ -445,12 +452,14 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(-10vw,-10vh);
   }
   50% {
@@ -478,12 +487,14 @@ opacity: 1;
     opacity: 0;
     transform: translate(0, 0);
   }
-  38%{
+  35%{
     opacity: 0;
+  }
+  38%{
+    opacity: 1;
     transform: translate(0,-25vh);
   }
   40% {
-    opacity: 1;
     transform: translate(30vw,-10vh);
   }
   50% {
@@ -503,7 +514,7 @@ opacity: 1;
   }
   100% {
     opacity: 1;
-    transform: translate(-140vw,-100vh) rotate(10deg);
+    transform: translate(-140vw,-100vh);
   }
 }
 .wing {
@@ -566,12 +577,9 @@ animation: wing 1.2s infinite;
     background:  rgb(0, 0, 0);
   }
   39% {
-    background:  rgb(70, 100, 220);
+    background:  rgb(90, 120, 220);
   }
-  41% {
-    background:  rgb(0, 0, 56);
-  }
-  44% {
+  42% {
     background:  rgb(0, 0, 0);
   }
   90%{
@@ -683,10 +691,10 @@ animation: wing 1.2s infinite;
 }
 @keyframes fullmoon {
   0%{
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   }
 37% {
-  transform: rotate(480deg);
+  transform: rotate(360deg);
   background-image: url("./FullMoon.png"); 
 }
 40% {
